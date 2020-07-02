@@ -1,0 +1,32 @@
+{
+    "name": "nasirkhan/article-module",
+    "description": "Article Module for Laravel Starter project. https://github.com/nasirkhan/laravel-starter",
+    "version": "v2.0.0",
+    "type": "laravel-module",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Nasir Khan Saikat",
+            "email": "nasir8891@gmail.com",
+            "homepage": "http://nasirkhn.com"
+        }
+    ],
+    "support": {
+        "email": "nasir8891@gmail.com"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Article\\Providers\\ArticleServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Article\\": ""
+        }
+    }
+}
